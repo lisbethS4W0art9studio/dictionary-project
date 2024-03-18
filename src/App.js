@@ -9,7 +9,7 @@ export default function App() {
           <img src={logo} className="App-logo img-fluid" alt="logo" />
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunrise" />
         </main>
         <footer className="App-footer">
           Coded by Lisbeth Stafferton and is open-sourced on{" "}
@@ -19,6 +19,14 @@ export default function App() {
             rel="noopener noreferrer"
           >
             GitHub
+          </a>{" "}
+          hosted on{" "}
+          <a
+            href="https://dictionary-project-2d83cp.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify.
           </a>
         </footer>
       </div>
